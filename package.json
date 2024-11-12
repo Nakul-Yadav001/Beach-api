@@ -1,5 +1,22 @@
 {
+  "name": "beach-api",
+  "version": "1.0.0",
+  "main": "index.js","type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "script":{
+    "start": "node index.js",
+    "test": "echo\"Error: no test specified\" && exit 1"
+
+  },
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
   }
 }
